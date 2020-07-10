@@ -36,37 +36,34 @@ Model A, which is a bad predictive model.
 Model B.
 
 
-Since Model A is buggy, it mistakenly decides to buy stock in Stock X. Those purchases drive up the price of Stock X. Model B uses the price of Stock X as an input feature, so Model B can easily come to some false conclusions about the value of Stock X stock. Model B could, therefore, buy or sell shares of Stock X based on the buggy behavior of Model A. Model B's behavior, in turn, can affect Model A, possibly triggering a tulip mania or a slide in Company X's stock
+Since Model A is buggy, it mistakenly decides to buy stock in Stock X. Those purchases drive up the price of Stock X. Model B uses the price of Stock X as an input feature, so Model B can easily come to some false conclusions about the value of Stock X stock. Model B could, therefore, buy or sell shares of Stock X based on the buggy behavior of Model A. Model B's behavior, in turn, can affect Model A, possibly triggering a tulip mania or a slide in Company X's stock.  
 
-===========================================================================================================================================================
-Which of the following models are susceptible to a feedback loop?
+* Which of the following models are susceptible to a feedback loop? *
 
-An election-results model that forecasts the winner of a mayoral race by surveying 2% of voters after the polls have closed.
+- An election-results model that forecasts the winner of a mayoral race by surveying 2% of voters after the polls have closed.
 
 If the model does not publish its forecast until after the polls have closed, it is not possible for its predictions to affect voter behavior.
 Try again.
 
-A face-attributes model that detects whether a person is smiling in a photo, which is regularly trained on a database of stock photography that is automatically updated monthly.
+- A face-attributes model that detects whether a person is smiling in a photo, which is regularly trained on a database of stock photography that is automatically updated monthly.
 
 There is no feedback loop here, as model predictions don't have any impact on our photo database. However, versioning of our input data is a concern here, as these monthly updates could potentially have unforeseen effects on the model.
 
-
-A university-ranking model that rates schools in part by their selectivity—the percentage of students who applied that were admitted.
+- A university-ranking model that rates schools in part by their selectivity—the percentage of students who applied that were admitted.
 
 The model's rankings may drive additional interest to top-rated schools, increasing the number of applications they receive. If these schools continue to admit the same number of students, selectivity will increase (the percentage of students admitted will go down). This will boost these schools' rankings, which will further increase prospective student interest, and so on…
 3 of 3 correct answers.
 
-A housing-value model that predicts house prices, using size (area in square meters), number of bedrooms, and geographic location as features.
+- A housing-value model that predicts house prices, using size (area in square meters), number of bedrooms, and geographic location as features.
 
 It is not possible to quickly change a house's location, size, or number of bedrooms in response to price forecasts, making a feedback loop unlikely. However, there is potentially a correlation between size and number of bedrooms (larger homes are likely to have more rooms) that may need to be teased apart.
 
-
-A book-recommendation model that suggests novels its users may like based on their popularity (i.e., the number of times the books have been purchased).
+- A book-recommendation model that suggests novels its users may like based on their popularity (i.e., the number of times the books have been purchased).
 
 Book recommendations are likely to drive purchases, and these additional sales will be fed back into the model as input, making it more likely to recommend these same books in the future.
 1 of 3 correct answers.
 
-A traffic-forecasting model that predicts congestion at highway exits near the beach, using beach crowd size as one of its features.
+- A traffic-forecasting model that predicts congestion at highway exits near the beach, using beach crowd size as one of its features.
 
 Some beachgoers are likely to base their plans on the traffic forecast. If there is a large beach crowd and traffic is forecast to be heavy, many people may make alternative plans. This may depress beach turnout, resulting in a lighter traffic forecast, which then may increase attendance, and the cycle repeats.
 2 of 3 correct answers.
@@ -106,20 +103,22 @@ EXAMPLE: A model is trained to predict future sales of a new product based on ph
 #### Sampling bias: Proper randomization is not used during data collection.
 EXAMPLE: A model is trained to predict future sales of a new product based on phone surveys conducted with a sample of consumers who bought the product and with a sample of consumers who bought a competing product. Instead of randomly targeting consumers, the surveyer chose the first 200 consumers that responded to an email, who might have been more enthusiastic about the product than average purchasers.
 
-####Group Attribution Bias
+#### Group Attribution Bias
 Group attribution bias is a tendency to generalize what is true of individuals to an entire group to which they belong. Two key manifestations of this bias are:
 	* 
 In-group bias: A preference for members of a group to which you also belong, or for characteristics that you also share.
 
 
 EXAMPLE: Two engineers training a résumé-screening model for software developers are predisposed to believe that applicants who attended the same computer-science academy as they both did are more qualified for the role.
-	* 
+	
 #### Out-group homogeneity bias: A tendency to stereotype individual members of a group to which you do not belong, or to see their characteristics as more uniform.
 
+EXAMPLE: Two engineers training a résumé-screening model for software developers are predisposed to believe that all applicants who did not attend a computer-science academy do not have sufficient expertise for the role.
 
-EXAMPLE: Two engineers training a résumé-screening model for software developers are predisposed to believe that all applicants who did not attend a computer-science academy do not have sufficient expertise for the role.Implicit Bias
-#### Implicit bias occurs when assumptions are made based on one's own mental models and personal experiences that do not necessarily apply more generally.
+#### Implicit Bias
+Implicit bias occurs when assumptions are made based on one's own mental models and personal experiences that do not necessarily apply more generally.
 EXAMPLE: An engineer training a gesture-recognition model uses a head shake as a feature to indicate a person is communicating the word "no." However, in some regions of the world, a head shake actually signifies "yes."
+
 A common form of implicit bias is confirmation bias, where model builders unconsciously process data in ways that affirm preexisting beliefs and hypotheses. In some cases, a model builder may actually keep training a model until it produces a result that aligns with their original hypothesis; this is called experimenter's bias.
 EXAMPLE: An engineer is building a model that predicts aggressiveness in dogs based on a variety of features (height, weight, breed, environment). The engineer had an unpleasant encounter with a hyperactive toy poodle as a child, and ever since has associated the breed with aggression. When the trained model predicted most toy poodles to be relatively docile, the engineer retrained the model several more times until it produced a result showing smaller poodles to be more violent.
 
