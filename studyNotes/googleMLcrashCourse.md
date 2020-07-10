@@ -35,10 +35,10 @@ Sometimes a model can affect another model. For example, consider two models for
 Model A, which is a bad predictive model.
 Model B.
 
-
 Since Model A is buggy, it mistakenly decides to buy stock in Stock X. Those purchases drive up the price of Stock X. Model B uses the price of Stock X as an input feature, so Model B can easily come to some false conclusions about the value of Stock X stock. Model B could, therefore, buy or sell shares of Stock X based on the buggy behavior of Model A. Model B's behavior, in turn, can affect Model A, possibly triggering a tulip mania or a slide in Company X's stock.  
 
-**Which of the following models are susceptible to a feedback loop? **
+---
+**Which of the following models are susceptible to a feedback loop?**
 
 - An election-results model that forecasts the winner of a mayoral race by surveying 2% of voters after the polls have closed.
 
