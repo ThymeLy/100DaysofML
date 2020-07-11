@@ -1,3 +1,4 @@
+# ML Engineering - Google's Machine Learning Crash Course
 ## Data Dependencies
 The behavior of an ML system is dependent on the behavior and qualities of its input features. As the input data for those features changes, so too will your model. 
 In traditional software development, you focus more on code than on data. In machine learning development, although coding is still part of the job, your focus must widen to include data. For example, on traditional software development projects, it is a best practice to write unit tests to validate your code. On ML projects, you must also continuously test, verify, and monitor your input data.
@@ -127,3 +128,38 @@ EXAMPLE: An engineer is building a model that predicts aggressiveness in dogs ba
 	2. unexpected feature values
 	3. data skew - under or over-represented - e.g. geographic bias
 
+## Fairness
+When evaluating a model, metrics calculated against an entire test or validation set don't always give an accurate picture of how fair the model is. e.g. different precision and recall rate when test on female or male separately
+As mentioned in MLCC, it is important to understand your dataset before diving straight into the prediction task.
+
+Some important questions to investigate when auditing a dataset for fairness:
+- Are there missing feature values for a large number of observations?	 
+- Are there features that are missing that might affect other features?
+- Are there any unexpected feature values? 
+- What signs of data skew do you see?
+
+#### Data processing
+dataset that is in a pandas DataFrame and convert it a Numpy array. While a pandas DataFrame is great — especially when working with Facets and other Python modules that visualize data — tf.keras.Sequential doesn't accept a pandas DataFrame as a data type. Luckily for us, it's quite trivial to convert a pandas DataFrame into a Numpy array, which is an accepted data type.
+```
+def pandas_to_numpy(data):
+  '''Convert a pandas DataFrame into a Numpy array'''
+  # Drop empty rows.
+  data = data.dropna(how="any", axis=0)
+
+
+  # Separate DataFrame into two Numpy arrays"
+  labels = np.array(data['income_bracket'] == ">50K")
+  features = data.drop('income_bracket', axis=1)
+  features = {name:np.array(value) for name, value in features.items()}
+  
+  return features, labels
+  ```
+TensorFlow requires that data maps to a model. To accomplish this, you have to use tf.feature_columns to ingest and represent features in TensorFlow.
+
+#### Consider key subgroups
+In this context, a subgroup is defined as a group of individuals who share a given characteristic—such as race, gender, or sexual orientation—that merits special consideration when evaluating a model with fairness in mind.
+
+Model tends to overfit if there is **not enough positive examples** for model to learn from. e.g. bias in labels for male and female, or class imbalance cases.
+Highlight the importance of evaluating model performance across subgroup rather than in aggregate.
+
+**Use confusion matrix to evaluate fairness**, as model tends to have different performance, i.e. precision and recall rate across different subgroup. 
