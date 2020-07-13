@@ -9,4 +9,4 @@ Also with some resources I find useful.
 
 **Day 3 (11 July 2020)** - Completing Fairness section of ML Engineering of Google's ML Crash Course, read on SVD, an easy to understand article on Medium [You Don’t Know SVD [Singular Value Decomposition](https://towardsdatascience.com/svd-8c2f72e264f)
 
-**Day 4 (13 July 2020)** - Completed Google's ML Crash Course, started on edX Stanford's Online, Databases & SQL by Jennifer Widom
+**Day 4 (13 July 2020)** - Completed Google's ML Crash Course [notes here](https://github.com/ThymeLy/100DaysofML/blob/master/studyNotes/googleML_part3.md), started on edX Stanford's Online, Databases & SQL by Jennifer Widom
