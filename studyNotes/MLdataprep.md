@@ -9,22 +9,19 @@ Data trumps all. It's true that updating your learning algorithm or model archit
 you'll spend the majority of time (~80%)  on a machine learning project constructing data sets and transforming data.
 
 ### Steps to Constructing Your Dataset
-To construct your dataset (and before doing data transformation), you should:
-	1. Collect the raw data.
-	2. Identify feature and label sources.
-	3. Select a sampling strategy.
-	4. Split the data.
+To construct your dataset (and before doing data transformation), you should:  
+	1. Collect the raw data.  
+	2. Identify feature and label sources.  
+	3. Select a sampling strategy.  
+	4. Split the data.  
 
-
-How many features should you pick ?
+**How many features should you pick ?**
 
 Pick 1-3 features that seem to have strong predictive power.
 
   It’s best for your data collection pipeline to start with only one or two features. This will help you confirm that the ML model works as intended. Also, when you build a baseline from a couple of features, you'll feel like you're making progress!
 
   Start smaller. Every new feature adds a new dimension to your training data set. When the dimensionality increases, the volume of the space increases so fast that the available training data become sparse. The sparser your data, the harder it is for a model to learn the relationship between the features that actually matter and the label. This phenomenon is called "the curse of dimensionality."
-
-The Size and Quality of a Data Set
 
 “Garbage in, garbage out”
 The preceding adage applies to machine learning. After all, your model is only as good as your data. 
@@ -35,7 +32,6 @@ It’s no use having a lot of data if it’s bad data; quality matters, too. But
 However, while collecting data, it's helpful to have a more concrete definition of quality. Certain aspects of quality tend to correspond to better-performing models:
 
 - reliability - omitted values, duplicate examples, bad labels, bad feature values
-	* 
 - feature representation - normalization, outliers
 - minimizing skew - training/serving skew
   that is, different results are computed for your metrics at training time vs. serving time. Causes of skew can be subtle but have deadly effects on your results. Always consider what data is available to your model at prediction time. During training, use only the features that you'll have available in serving, and make sure your training set is representative of your serving traffic.
@@ -47,7 +43,7 @@ Relatedly, when you're training a model and get amazing evaluation metrics (like
 ### Joining Data Logs
 When assembling a training set, you must sometimes join multiple sources of data.
 
-Types of Logs
+**Types of Logs**
 - transactional logs
 - attribute data 
 - aggregate statistics
@@ -78,10 +74,8 @@ Direct vs. Derived Labels
 Your model will only be as good as the connection between your derived label and your desired prediction
 
 Label Sources
-
-Direct label for Events, such as “Did the user click the top search result?”
-
-Direct label for Attributes, such as “Will the advertiser spend more than $X in the next week?”
+- Direct label for Events, such as “Did the user click the top search result?”
+- Direct label for Attributes, such as “Will the advertiser spend more than $X in the next week?”
 
 Remember to consider seasonality or cyclical effects; for example, advertisers might spend more on weekends. For that reason, you may prefer to use a 14-day window instead, or to use the date as a feature so the model can learn yearly effects.
 Choose event data carefully to avoid cyclical or seasonal effects or to take those effects into account.
