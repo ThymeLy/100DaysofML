@@ -10,3 +10,5 @@ Also with some resources I find useful.
 **Day 3 (11 July 2020)** - Completing Fairness section of ML Engineering of Google's ML Crash Course, read on SVD, an easy to understand article on Medium [You Don’t Know SVD [Singular Value Decomposition](https://towardsdatascience.com/svd-8c2f72e264f)
 
 **Day 4 (13 July 2020)** - Completed Google's ML Crash Course [notes here](https://github.com/ThymeLy/100DaysofML/blob/master/studyNotes/googleML_part3.md), started on edX Stanford's Online, Databases & SQL by Jennifer Widom
+
+**Day 5 (14 July 2020)** - Started next Google AI course - Data preparation and feature engineering [my notes here](github.com/ThymeLy/100DaysofML/blob/master/studyNotes/MLdataprep.md), continued on EdX Stanford Online - Database & SQL (Querying relational database)
