@@ -12,3 +12,5 @@ Also with some resources I find useful.
 **Day 4 (13 July 2020)** - Completed Google's ML Crash Course [notes here](https://github.com/ThymeLy/100DaysofML/blob/master/studyNotes/googleML_part3.md), started on edX Stanford's Online, Databases & SQL by Jennifer Widom
 
 **Day 5 (14 July 2020)** - Started next Google AI course - Data preparation and feature engineering [my notes here](github.com/ThymeLy/100DaysofML/blob/master/studyNotes/MLdataprep.md), continued on EdX Stanford Online - Database & SQL (Querying relational database)
+
+**Day 6 (15 July 2020)** - Continued on sampling and splitting data in ML data preparation course [(notes)](https://github.com/ThymeLy/100DaysofML/blob/master/studyNotes/sampling_splitting_data.md), continued on Jennifer Widom database course YouTube series on [well formed XML](https://www.youtube.com/watch?v=aR9aO4o52Eg&list=PLEAYkSg4uSQ0ML-cQSErtoTk2KrUzSZ2c&index=5)  
