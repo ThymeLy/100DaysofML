@@ -25,4 +25,4 @@ When data shows
 - data with burstiness (intermittent burst instead of continuous stream)
 
 ### Randomization
-**Make your data generation pipeline reproducible"
+**Make your data generation pipeline reproducible**
