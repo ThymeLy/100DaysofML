@@ -16,3 +16,5 @@ Also with some resources I find useful.
 **Day 6 (15 July 2020)** - Continued on sampling and splitting data in ML data preparation course [(notes)](https://github.com/ThymeLy/100DaysofML/blob/master/studyNotes/sampling_splitting_data.md), continued on Jennifer Widom database course YouTube series on [well formed XML](https://www.youtube.com/watch?v=aR9aO4o52Eg&list=PLEAYkSg4uSQ0ML-cQSErtoTk2KrUzSZ2c&index=5)  
 
 **Day 7 (16 July 2020)** - Learned about Randomization (Make your data generation pipeline reproducible), data transformation; XSD (XML Schema Definition) basics, a bit on JSON data
+
+**Day 8 (17 July 2020)** - Learned about transforming numeric data by normalization or bucketing; JSON data, JSON schema, syntactically and semantically valid JSON 
