@@ -18,3 +18,5 @@ Also with some resources I find useful.
 **Day 7 (16 July 2020)** - Learned about Randomization (Make your data generation pipeline reproducible), data transformation; XSD (XML Schema Definition) basics, a bit on JSON data
 
 **Day 8 (17 July 2020)** - Learned about transforming numeric data by normalization or bucketing; JSON data, JSON schema, syntactically and semantically valid JSON 
+
+**Day 9 (20 July 2020)** - Have been learning a bit previous two days, but didn't commit full one hour to it. Today's on database : relational algebra - natural join, theta join, union, difference, intersection operator. Google ML course data prep - Intro to modeling. Honestly don't even know the optimizer choice before, guess I need to have more background reading.
