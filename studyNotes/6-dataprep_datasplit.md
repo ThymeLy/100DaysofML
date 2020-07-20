@@ -26,3 +26,19 @@ When data shows
 
 ### Randomization
 **Make your data generation pipeline reproducible**
+
+Make sure any randomization in data generation can be made deterministic. By
+- Seed random number generator (RNG)
+- Use invariant hash key
+
+Consideration for hashing - hashing will always include or exclude certain queries --> your training will see less diverse set of queries
+
+One more note: Make your hashing unique to ensure your system doesn't collide with other systems
+
+**Downsampling without upweight downsampled data class will alter model base rate, so it is no longer calibrated.**
+  A more intuitive explanation: Take one sample instead of all ten from the majority class (label with more samples in it), and add more weight onto that ONE sample (e.g. original weight might be 1.0, becomes 10.0 after downsampled the data (reduction of data points taken)).
+  
+### Classifier works perfectly in training, evaluation and testing sets but failed in production might be due to reasons below:
+- groupings of data (clusters of data are evenly distributed across training and testing set and become too similar for model to learn)
+- time series data (provide "sneak" preview to model)
+- data with burstiness (intermittently as opposed to continuous stream)
