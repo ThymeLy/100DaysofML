@@ -20,3 +20,9 @@ Also with some resources I find useful.
 **Day 8 (17 July 2020)** - Learned about transforming numeric data by normalization or bucketing; JSON data, JSON schema, syntactically and semantically valid JSON 
 
 **Day 9 (20 July 2020)** - Have been learning a bit previous two days, but didn't commit full one hour to it. Today's on database : relational algebra - natural join, theta join, union, difference, intersection operator. Google ML course data prep - Intro to modeling. Honestly don't even know the optimizer choice before, guess I need to have more background reading.
+
+**Day 10 (21 July 2020)** - browsing around on scikit learn, seemed to be stuck on last part of Intro to modelling section, not sure can I even counted it as learning, cause I'm doing nothing.
+
+**Day 11 (22 July 2020)** - finally read up on the [review article](https://www.nature.com/articles/s41576-019-0122-6#ref-CR161) of using deep learning in bioinformatics. Glad that I manage to understand some of those terms (saw it before in Google ML Crash Course). Machine learning is literally anywhere now, regardless of what field you are in. As long as you generate data, machine learning can have its foot in it. 
+
+**Day 12 (24 July 2020)** - Skipping so many days, honestly don't know what am I doing. Today just do a quick read up on [Intro to Machine Learning in Bioinformatics](https://bioinformatics-training.github.io/intro-machine-learning-2019/index.html). There are still a lot that I don't understand, especially on the R-code and package used to run the analysis. Continuing on Stanford database course - relational algebra done, moving back to SQL
