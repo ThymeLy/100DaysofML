@@ -1,6 +1,7 @@
 [variance explained](http://varianceexplained.org/r/trump-tweets/)
 [student project](https://www.msi.co.jp/tmstudio/stu17contents/No4_muc17_TMS.pdf)
 [teaching notes](http://utstat.toronto.edu/~nathan/teaching/sta4002/Class4/trumptweets-students.html)
+## geom_bar() vs geom_col() https://ggplot2.tidyverse.org/reference/geom_bar.html
 
 library(dplyr)
 library(purrr)
