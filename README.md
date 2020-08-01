@@ -36,3 +36,5 @@ Also with some resources I find useful.
 **Day 16 (29 July 2020)** - Continuing on Statistical Modeling (0.5 h). Trying on sentiment analysis in R based on this tutorial on [trump tweets](http://varianceexplained.org/r/trump-tweets/). Realised that I am still very weak in ggplot although been reading on it quite some time.
 
 **Day 17 (31 July 2020)** - Did Statistical Modeling, but only 0.5 h yesterday, so couldn't count it as a day. Today started on Google's ML [Clustering Course](https://developers.google.com/machine-learning) for almost 1 hour, continuing the rest for Statistical modeling to finish off one unit.
+
+**Day 18 (1 August 2020)** - Continuing with Google's ML clustering (0.5 h) & EdX SQL database course (0.5 h), a relatively unproductive day it seems.
