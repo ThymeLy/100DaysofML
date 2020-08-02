@@ -38,3 +38,5 @@ Also with some resources I find useful.
 **Day 17 (31 July 2020)** - Did Statistical Modeling, but only 0.5 h yesterday, so couldn't count it as a day. Today started on Google's ML [Clustering Course](https://developers.google.com/machine-learning) for almost 1 hour, continuing the rest for Statistical modeling to finish off one unit.
 
 **Day 18 (1 August 2020)** - Continuing with Google's ML clustering (0.5 h) & EdX SQL database course (0.5 h), a relatively unproductive day it seems.
+
+**Day 19 (2 August 2020)** - Continuing with Google ML Clustering (0.7 h), starting to get confusing again, and a lot of unknown or forgotten glossary (autoencoder, cress entropy, log loss). Tried EdX SQL assignment, couldn't get through even one, sigh. Not in condition today, though.
