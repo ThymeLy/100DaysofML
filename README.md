@@ -42,3 +42,5 @@ Also with some resources I find useful.
 **Day 19 (2 August 2020)** - Continuing with Google ML Clustering (0.7 h), starting to get confusing again, and a lot of unknown or forgotten glossary (autoencoder, cress entropy, log loss). Tried EdX SQL assignment, couldn't get through even one, sigh. Not in condition today, though.
 
 **Day 20 (4 August 2020)** - Skipping a day again. Today whole hour spent on Google ML's Clustering - Similarity Measure: manual vs supervise, with k-means clustering as example. Euclidean (distance only), cosine and dot product. Couldn't understand the Colab programming exercise. Realised I get stuck at the exercise almost every single time. And, I need a project to work on.
+
+**Day 21 (5 August 2020)** - k-means generalization on Google ML Clustering course. Note: Perform k-means generalisation with varying cluster widths and dimensions when dealing with data of varying size and density. Finally manage to solve two more SQL question on EdX -- after re-watch again the lecture video. We really only learn when we did things by ourselves, not just passively listening to lecture.
