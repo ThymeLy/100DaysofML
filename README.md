@@ -44,3 +44,6 @@ Also with some resources I find useful.
 **Day 20 (4 August 2020)** - Skipping a day again. Today whole hour spent on Google ML's Clustering - Similarity Measure: manual vs supervise, with k-means clustering as example. Euclidean (distance only), cosine and dot product. Couldn't understand the Colab programming exercise. Realised I get stuck at the exercise almost every single time. And, I need a project to work on.
 
 **Day 21 (5 August 2020)** - k-means generalization on Google ML Clustering course. Note: Perform k-means generalisation with varying cluster widths and dimensions when dealing with data of varying size and density. Finally manage to solve two more SQL question on EdX -- after re-watch again the lecture video. We really only learn when we did things by ourselves, not just passively listening to lecture.
+
+**Day 22 (6 August 2020)** - Tried fast.ai course: [A Code-First Introduction to Natural Language Processing · fast.ai](
+https://www.fast.ai/2019/07/08/fastai-nlp/). Decided to skip Google ML Clustering course for now since I really don't get it at this point. Continuing on Decision Tree on ML bioinfo intro. Continued a bit on Statistical Modeling - Describing variation, shapes of distribution.
