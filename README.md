@@ -47,3 +47,8 @@ Also with some resources I find useful.
 
 **Day 22 (6 August 2020)** - Tried fast.ai course: [A Code-First Introduction to Natural Language Processing · fast.ai](
 https://www.fast.ai/2019/07/08/fastai-nlp/). Decided to skip Google ML Clustering course for now since I really don't get it at this point. Continuing on Decision Tree on ML bioinfo intro. Continued a bit on Statistical Modeling - Describing variation, shapes of distribution.
+
+**Day 23 (9 August 2020)** - Didn't spend up to one hour on ML (10 minutes short), but decided to clock in as well. Completed Chapter 4 on Statistical Modeling. Went 25 minutes of first lecture of fast.ai course: [A Code-First Introduction to Natural Language Processing · fast.ai](
+https://www.fast.ai/2019/07/08/fastai-nlp/). Couldn't engaged with it cause it was designed to be a very classroom-based course. 
+
+**Day 24 (10 August 2020)** - Completed Chapter 5 on Statistical Modeling. Starting to get bored. Fiddling around in [analytics vidya site]( https://courses.analyticsvidhya.com/collections), thinking about registering some courses. Wanted to start tutorial on [scikit-learn](https://scikit-learn.org/stable/tutorial/index.html). Still short of one hour today. Promise I will replace it another day.
