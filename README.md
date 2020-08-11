@@ -51,4 +51,6 @@ https://www.fast.ai/2019/07/08/fastai-nlp/). Decided to skip Google ML Clusterin
 **Day 23 (9 August 2020)** - Didn't spend up to one hour on ML (10 minutes short), but decided to clock in as well. Completed Chapter 4 on Statistical Modeling. Went 25 minutes of first lecture of fast.ai course: [A Code-First Introduction to Natural Language Processing · fast.ai](
 https://www.fast.ai/2019/07/08/fastai-nlp/). Couldn't engaged with it cause it was designed to be a very classroom-based course. 
 
-**Day 24 (10 August 2020)** - Completed Chapter 5 on Statistical Modeling. Starting to get bored. Fiddling around in [analytics vidya site]( https://courses.analyticsvidhya.com/collections), thinking about registering some courses. Wanted to start tutorial on [scikit-learn](https://scikit-learn.org/stable/tutorial/index.html). Still short of one hour today. Promise I will replace it another day.
+**Day 24 (10 August 2020)** - Completed Chapter 5 on Statistical Modeling. Starting to get bored. Fiddling around in [analytics vidya site]( https://courses.analyticsvidhya.com/collections), thinking about registering some courses. Wanted to start tutorial on [scikit-learn](https://scikit-learn.org/stable/tutorial/index.html). Still short of one hour today. Promise I will replace it some day.
+
+**Day 25 (11 August 2020)** - Just half an hour today, still decided to log in today though. Mostly on Coursera's Machine Learning course by Andrew Ng from Stanford University. Not getting enough time. Probably with stop for a while.
