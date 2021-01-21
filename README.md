@@ -56,4 +56,4 @@ https://www.fast.ai/2019/07/08/fastai-nlp/). Couldn't engaged with it cause it w
 **Day 25 (11 August 2020)** - Just half an hour today, still decided to log in today though. Mostly on Coursera's Machine Learning course by Andrew Ng from Stanford University. Not getting enough time. Probably with stop for a while.
 
 **Day 26 (21 January 2021)** - It has been a while. Could not get the hang of linear algebra in Machine learning context. End up discovering this very useful and clear article on it! 
-[Linear Algebra explained in the context of deep learning | by laxman vijay | Towards Data Science] (https://towardsdatascience.com/linear-algebra-explained-in-the-context-of-deep-learning-8fcb8fca1494)
+[Linear Algebra explained in the context of deep learning | by laxman vijay | Towards Data Science](https://towardsdatascience.com/linear-algebra-explained-in-the-context-of-deep-learning-8fcb8fca1494)
