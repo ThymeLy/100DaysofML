@@ -57,3 +57,5 @@ https://www.fast.ai/2019/07/08/fastai-nlp/). Couldn't engaged with it cause it w
 
 **Day 26 (21 January 2021)** - It has been a while. Could not get the hang of linear algebra in Machine learning context. End up discovering this very useful and clear article on it! 
 [Linear Algebra explained in the context of deep learning | by laxman vijay | Towards Data Science](https://towardsdatascience.com/linear-algebra-explained-in-the-context-of-deep-learning-8fcb8fca1494)
+
+**Day 27 (22 January 2021)** - Try to read the [Mathematics for Machine Learning (mml)](https://mml-book.github.io/) book, but found it too technical and mathematic-based, which is extremely hard for me (without undergraduate maths background) to follow. Watching videos from Khan Academy helps a bit. Return to try the fastai course again [Practical Deep Learning for Coders](https://course.fast.ai/), and find the top-down approach appealing. 
